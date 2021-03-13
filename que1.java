@@ -23,6 +23,21 @@ for(i=0;i<n;i++)
 	k=1;
 	System.out.print("\n");
 }
+System.out.print("\n\n");
+for(i=0;i<n;i++)
+{
+	while(k<n-i)
+	{
+		System.out.print(" ");
+		k++;
+	}
+	for(j=0;j<i+1;j++)
+	{
+		System.out.print("* ");
+	}
+	k=1;
+	System.out.print("\n");
+}
 	}
 
 }
