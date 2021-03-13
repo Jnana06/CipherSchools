@@ -4,8 +4,25 @@ public class que1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+	//printing star pyramid
 int n=5;
 int i,j,asc=65,k=1,temp;
+for(i=0;i<n;i++)
+{
+	while(k<n-i)
+	{
+		System.out.print(" ");
+		k++;
+	}
+	for(j=0;j<i+1;j++)
+	{
+		System.out.print("* ");
+	}
+	k=1;
+	System.out.print("\n");
+}
+System.out.print("\n\n");
+//printing pyramid of alphabets
 for(i=0;i<n;i++)
 {
 	while(k<n-i)
@@ -19,21 +36,6 @@ for(i=0;i<n;i++)
 		char ele=(char)temp;
 		System.out.print(ele+" ");
 		asc++;
-	}
-	k=1;
-	System.out.print("\n");
-}
-System.out.print("\n\n");
-for(i=0;i<n;i++)
-{
-	while(k<n-i)
-	{
-		System.out.print(" ");
-		k++;
-	}
-	for(j=0;j<i+1;j++)
-	{
-		System.out.print("* ");
 	}
 	k=1;
 	System.out.print("\n");
